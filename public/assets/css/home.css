@@ -1,0 +1,389 @@
+/*navbar*/
+.navbar {
+	position: relative;
+	z-index: 4;
+}
+.navbar-brand{
+	font-family: viga;
+	font-size: 32px;
+}
+.navbar-nav{
+	font-family: poppins;
+}
+.nav-login{
+	margin-left: 150px;
+	margin-right: -150px;
+}
+.nav-login .tombol1{
+	border-radius: 20px;
+	font-family: poppins;
+	color: white;
+}
+.nav-login .tombol2{
+	border-radius: 10px;
+	font-family: poppins;
+	color: white;
+	background-color: #454699;
+}
+
+
+/*jumbotron*/
+.jumbotron{
+	background-image: url(girl.png);
+	background-size: cover;
+	height: 540px;
+	text-align: center;
+	position: relative;
+}
+.jumbotron .container{
+	position: relative;
+	z-index: 1;
+}
+.jumbotron::after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+	position: absolute;
+	bottom: 0;
+}
+
+.jumbotron .col-md-6{
+	margin-top: 150px;
+}
+.jumbotron .narasi-menu{
+	color: white;
+	margin: 20px;
+	text-align: justify;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+.jumbotron .col-md-4{
+	margin-top: 50px;
+}
+.jumbotron .survey{
+	background-color: #454699;
+	width: 250px;
+	padding: 5px 10px 5px 10px;
+	margin: 20px;
+	color: white;
+	border-radius: 5px;
+}
+
+.jumbotron .p1{
+	text-align: left;
+	font-size: 14px;
+}
+.jumbotron .p2{
+	text-align: right;
+}
+
+
+.jumbotron a{
+	text-decoration: none;
+}
+
+.jumbotron a{
+	text-decoration: none;
+	text-align: center;
+}
+
+.jumbotron .check{
+	font-family: Poppins;
+	font-size: 16px;
+	color: #FFBB56;
+	font-weight: 500;
+	margin-top: 40px;
+	letter-spacing: 2px;
+}
+.jumbotron .bahasa{
+	text-align: right;
+	color: white;
+	margin-right: 12px;
+	margin-top: -290px;
+}
+
+.jumbotron .bahasa1{
+	text-align: right;
+	color: white;
+	margin-top: -10px;
+}
+
+.service h3 {
+	color: #454699;
+	margin-top: 100px;
+}
+.service .col-lg-1{
+		margin-top: -100px;
+}
+
+.service h5{
+	margin: -4px;
+	color: #454699;
+}
+
+.service .col-lg-3{
+	margin-top: -80px;
+	font-family: Roboto;
+}
+
+.service .col-lg-3 p{
+	background-color: #FFBB56;
+	border-radius: 10px;
+	padding: 25px 10px;
+	color: black;
+	width: 200px;
+	height: 80px;
+}
+
+.service .col-lg-3 a{
+	text-decoration: none;
+}
+
+.service .col-lg-8 img{
+	width: 80%;
+	margin-top: -400px;
+	margin-left: 70%;
+}
+
+.service .garis .col-lg-1 img{
+	width: 70px;
+	margin-top: 90px;
+	margin-left: 0px;
+}
+
+.service .workingspace .col-lg-1{
+
+	border-left: 2px #454699 solid;
+	margin-left: 48px;
+}
+
+.service .garis .col-lg-11{
+	border-top: 2px #454699 solid;
+	margin-top: 20px;
+
+}
+
+
+
+
+
+.info-panel{
+	box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+	border-radius :12px;
+	margin-top:-100px;
+	background-color: white;
+	padding: 30px;
+	background-color:#FFBB56;
+}
+.info-panel img {
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.info-panel h4{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+.info-panel p{
+	font-size: 14px;
+	color: #1c2c5d;
+	margin-top: -5px;
+	font-weight: 400;
+}
+
+.workingspace{
+	margin-top: 120px;
+	text-align: center;
+
+}
+
+.workingspace h3{
+	font-size: 52px;
+	font-weight: 200;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+.workingspace h3 span{
+	font-weight: 500;
+}
+
+.workingspace p{
+	font-size: 18px;
+	color: #1c2c5d;
+	text-align: justify;
+	font-weight: 400;
+	margin: 30px 0;
+}
+.testimonial{
+ 		margin-top: 100px;
+ 	}
+
+.testimonial img{
+	width: 70%;
+}
+
+.testimonial p{
+	text-align: center;
+	color: #454699;
+	font-family: roboto;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+.testimonial .donate{
+	background-color: #454699;
+	width: 150px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0 8px 6px -2px grey;
+	margin-bottom: 50px;
+
+}
+
+
+.testimonial a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	font-family: roboto;
+	letter-spacing: 1px;
+}
+
+.tangkas{
+	background-image: url(bgabout.png);
+	background-size: cover;
+	height: 800px;
+	background-position: center;
+
+
+}
+
+.tangkas h1{
+	color: #454699;
+	font-family: Roboto;
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.tangkas img{
+}
+
+.tangkas .deskripsi{
+	text-align: justify;
+	color: #454699;
+	margin-top: 270px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	font-family: roboto;
+}
+
+.tangkas .row{
+	margin-bottom: 200px;
+}
+
+.tangkas .col-lg-5 img{
+	margin-top: 200px;
+}
+
+footer{
+	background-color: black;
+	padding: 20px;
+	color: white;
+	font-family: roboto;
+}
+
+footer img{
+	margin-bottom: 50px;
+}
+
+footer .kontak input{
+	border-radius: 10px;
+	border: 0;
+	margin: 5px;
+}
+
+footer .kontak textarea{
+	border-radius: 5px;
+	margin: 5px;
+}
+
+footer button{
+	color: white;
+	border-radius: 10px;
+	background-color: #454699;
+	border: 0;
+	padding: 5px;
+	margin-left: 30px;
+	width: 100px;
+}
+
+footer h5{
+	margin-left: 50px;
+}
+
+
+footer .kontak {
+	margin-top: -50px;
+}
+
+
+
+
+
+/*utility*/
+.tombol{
+	border-radius: 20px;
+	font-family: poppins;
+	color: white;
+	background-color: #454699;
+}
+
+
+
+/*desktop*/
+@media (min-width: 992px) { 
+
+	.navbar-brand, .nav-link{
+		color: white !important;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.9);
+	}
+
+	.navbar{
+	margin-right: 150px;
+	}
+	.nav-link{
+		margin-right: 50px;
+	}
+
+ 	.nav-link:hover::after {
+ 		content: '';
+ 		width: 100%;
+ 		margin: auto;
+ 		padding-bottom: 5px;
+ 		margin-bottom: -8px;
+ 		display: block;
+ 		border-bottom: 3px solid white;
+ 	}
+ 	.jumbotron{
+ 		margin-top: -75px;
+ 		height: 640px;
+ 	}
+ 	.jumbotron .display-4{
+ 		font-size: 62px;
+ 	}
+
+ 	.workingspace img{
+ 		text-align: center;
+ 	}
+ 	
+ }
